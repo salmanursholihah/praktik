@@ -8,3 +8,6 @@ Route::get('/', function () {
 Route::get('/struktur_dasar_html', function () {
     return view('praktik.struktur_html');
 });
+Route::get('/multimedia', function () {
+    return view('praktik.multimedia');
+});
