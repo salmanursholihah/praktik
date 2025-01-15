@@ -20,3 +20,6 @@ Route::get('/html_css', function () {
 Route::get('/tabel_form_html', function () {
     return view('praktik.tabel_form_html');
 });
+Route::get('/layout_sederhana', function () {
+    return view('praktik.layout_sederhana');
+});
