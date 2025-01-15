@@ -14,3 +14,6 @@ Route::get('/multimedia', function () {
 Route::get('/semantic', function () {
     return view('praktik.semantic');
 });
+Route::get('/html_css', function () {
+    return view('praktik.html_css');
+});
