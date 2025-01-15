@@ -17,3 +17,6 @@ Route::get('/semantic', function () {
 Route::get('/html_css', function () {
     return view('praktik.html_css');
 });
+Route::get('/tabel_form_html', function () {
+    return view('praktik.tabel_form_html');
+});
