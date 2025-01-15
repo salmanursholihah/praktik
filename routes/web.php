@@ -11,3 +11,6 @@ Route::get('/struktur_dasar_html', function () {
 Route::get('/multimedia', function () {
     return view('praktik.multimedia');
 });
+Route::get('/semantic', function () {
+    return view('praktik.semantic');
+});
