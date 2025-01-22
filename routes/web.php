@@ -23,3 +23,10 @@ Route::get('/tabel_form_html', function () {
 Route::get('/layout_sederhana', function () {
     return view('praktik.layout_sederhana');
 });
+
+////minggu ke-2
+Route::get('/transisi', function () {
+    return view('praktik.minggu_ke2.transisi');
+});
+
+
