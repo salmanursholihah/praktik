@@ -40,5 +40,8 @@ Route::get('/profil_html_css', function () {
 Route::get('/kalkulator', function () {
     return view('praktik.minggu_ke2.kalkulator');
 });
+Route::get('/halaman_bootstrap', function () {
+    return view('praktik.minggu_ke2.halaman_bootstrap');
+});
 
 
