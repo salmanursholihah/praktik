@@ -31,5 +31,8 @@ Route::get('/transisi', function () {
 Route::get('/animasi', function () {
     return view('praktik.minggu_ke2.animasi');
 });
+Route::get('/profil_html', function () {
+    return view('praktik.minggu_ke2.profil_html');
+});
 
 
