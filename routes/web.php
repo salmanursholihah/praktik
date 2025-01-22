@@ -34,5 +34,8 @@ Route::get('/animasi', function () {
 Route::get('/profil_html', function () {
     return view('praktik.minggu_ke2.profil_html');
 });
+Route::get('/profil_html_css', function () {
+    return view('praktik.minggu_ke2.profil_html_css');
+});
 
 
