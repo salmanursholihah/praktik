@@ -28,5 +28,8 @@ Route::get('/layout_sederhana', function () {
 Route::get('/transisi', function () {
     return view('praktik.minggu_ke2.transisi');
 });
+Route::get('/animasi', function () {
+    return view('praktik.minggu_ke2.animasi');
+});
 
 
