@@ -55,5 +55,8 @@ Route::get('/ubah_html', function () {
 Route::get('/tombol_interaktif', function () {
     return view('minggu_ke3.tombol_interaktif');
 });
+Route::get('/onclick', function () {
+    return view('minggu_ke3.onclick');
+});
 
 
