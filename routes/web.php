@@ -61,5 +61,8 @@ Route::get('/onclick', function () {
 Route::get('/onchange', function () {
     return view('minggu_ke3.onchange');
 });
+Route::get('/looping', function () {
+    return view('minggu_ke3.looping');
+});
 
 
