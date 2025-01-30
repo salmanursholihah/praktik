@@ -48,6 +48,38 @@ do{
     document.write("apakah anda yakin ingin mengulang");
 }
 
+
 </script>
+<h2>looping while</h2>
+<script>
+                    var ulangi= confirm("apakah anda akan mengulang")
+                    var counter=0;
+
+                    while(ulangi){
+                        var jawab=confirm("apakah anda akan mengulang")
+                        counter++
+                        if(jawab==false){
+                            ulangi==true;
+                        }
+
+                    }
+                </script> 
+
+
 </body>
+ {{-- <script>
+                    var ulangi= confirm("apakah anda akan mengulang")
+                    var counter=0;
+
+                    while(ulangi){
+                        var jawab=confirm("apakah anda akan mengulang")
+                        counter++
+                        if(jawab==false){
+                            ulangi==true;
+                        }
+
+                    }
+                </script>   --}}
+
+
 </html>
