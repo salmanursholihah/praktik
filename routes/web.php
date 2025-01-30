@@ -58,5 +58,8 @@ Route::get('/tombol_interaktif', function () {
 Route::get('/onclick', function () {
     return view('minggu_ke3.onclick');
 });
+Route::get('/onchange', function () {
+    return view('minggu_ke3.onchange');
+});
 
 
