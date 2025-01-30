@@ -28,5 +28,15 @@ for(let a=10; a<0; a++);
     document.write("hai selamat datang user".repeat(20));
 
 </script>
+
+<h2>looping foreach</h2>
+<script>
+var jurusan =['rpl','mm','ipa','ips']
+jurusan.forEach(jurusan =>{
+    document.write("<P>"+jurusan+"</P>");
+});
+</script>
+<h2>looping do while</h2>
+sc
 </body>
 </html>
