@@ -52,5 +52,8 @@ Route::get('/daftar_tugas', function () {
 Route::get('/ubah_html', function () {
     return view('minggu_ke3.ubah_html');
 });
+Route::get('/tombol_interaktif', function () {
+    return view('minggu_ke3.tombol_interaktif');
+});
 
 
