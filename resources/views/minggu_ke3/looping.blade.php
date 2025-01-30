@@ -37,6 +37,17 @@ jurusan.forEach(jurusan =>{
 });
 </script>
 <h2>looping do while</h2>
-sc
+<script>
+const ulangi = prompt('apakah anda akan mengulang');
+counter=0;
+
+do{
+    counter++;
+    ulangi = confirm('apakah anda yakin akan mengulang');
+}while(ulangi){
+    document.write("apakah anda yakin ingin mengulang");
+}
+
+</script>
 </body>
 </html>
