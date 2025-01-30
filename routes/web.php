@@ -45,3 +45,12 @@ Route::get('/halaman_bootstrap', function () {
 });
 
 
+///minggu ke 3
+Route::get('/daftar_tugas', function () {
+    return view('minggu-ke3.daftar-tugas');
+});
+Route::get('/ubah_html', function () {
+    return view('minggu_ke3.ubah_html');
+});
+
+
