@@ -64,5 +64,12 @@ Route::get('/onchange', function () {
 Route::get('/looping', function () {
     return view('minggu_ke3.looping');
 });
+Route::get('/todo_list', function () {
+    return view('minggu_ke3.todo_list');
+});
 
+///minggu-4
 
+Route::get('/todo_list_rev', function () {
+    return view('minggu_4.todo_list_rev');
+});

@@ -36,50 +36,20 @@ jurusan.forEach(jurusan =>{
     document.write("<P>"+jurusan+"</P>");
 });
 </script>
-<h2>looping do while</h2>
-<script>
-const ulangi = prompt('apakah anda akan mengulang');
-counter=0;
 
-do{
-    counter++;
-    ulangi = confirm('apakah anda yakin akan mengulang');
-}while(ulangi){
-    document.write("apakah anda yakin ingin mengulang");
-}
-
-
-</script>
 <h2>looping while</h2>
 <script>
-                    var ulangi= confirm("apakah anda akan mengulang")
-                    var counter=0;
+var ulangi = prompt('ada ingin mengulang');
+var counter = 0;
 
-                    while(ulangi){
-                        var jawab=confirm("apakah anda akan mengulang")
-                        counter++
-                        if(jawab==false){
-                            ulangi==true;
-                        }
-
-                    }
-                </script> 
-
-
+while(ulangi){
+    var jawab = confirm ('apakah anda akan mengulang')
+    counter++
+    if(jawab== false){
+        ulangi== true;
+    }
+}
+</script>
 </body>
- {{-- <script>
-                    var ulangi= confirm("apakah anda akan mengulang")
-                    var counter=0;
-
-                    while(ulangi){
-                        var jawab=confirm("apakah anda akan mengulang")
-                        counter++
-                        if(jawab==false){
-                            ulangi==true;
-                        }
-
-                    }
-                </script>   --}}
-
 
 </html>
