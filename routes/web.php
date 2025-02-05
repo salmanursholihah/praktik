@@ -74,4 +74,7 @@ Route::get('/todo_list', function () {
 Route::get('/todo_list_rev', function () {
     return view('minggu_4.todo_list_rev');
 });
+Route::get('/looping_rev', function () {
+    return view('minggu_4.looping_rev');
+});
 route::get('/praktik',[PraktikController::class,'salma']);
