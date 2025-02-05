@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Praktik\PraktikController;
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
@@ -73,3 +74,4 @@ Route::get('/todo_list', function () {
 Route::get('/todo_list_rev', function () {
     return view('minggu_4.todo_list_rev');
 });
+route::get('/praktik',[PraktikController::class,'salma']);
