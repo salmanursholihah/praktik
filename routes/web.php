@@ -78,3 +78,15 @@ Route::get('/looping_rev', function () {
     return view('minggu_4.looping_rev');
 });
 route::get('/praktik',[PraktikController::class,'salma']);
+
+
+///view reglog
+Route::get('/register', function () {
+    return view('praktik.reglog_minggu_5.register');
+});
+Route::get('/login', function () {
+    return view('praktik.reglog_minggu_5.login');
+});
+Route::get('/lupa_sandi', function () {
+    return view('praktik.reglog_minggu_5.lupa_sandi');
+});
