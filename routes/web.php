@@ -90,3 +90,6 @@ Route::get('/login', function () {
 Route::get('/lupa_sandi', function () {
     return view('praktik.reglog_minggu_5.lupa_sandi');
 });
+Route::get('/index', function () {
+    return view('praktik.reglog_minggu_5.index');
+});
