@@ -93,3 +93,6 @@ Route::get('/lupa_sandi', function () {
 Route::get('/index', function () {
     return view('praktik.reglog_minggu_5.index');
 });
+Route::get('/dashboard_backend', function () {
+    return view('praktik.praktik_dashboard.dashboard_backend');
+});
